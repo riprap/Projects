@@ -26,7 +26,3 @@ class CollatzConjecture{
 		return $this->numberOfSteps;
 	}
 }
-
-$x = new CollatzConjecture(74);
-$x->calculateSteps();
-echo $x->getNumberOfSteps();
